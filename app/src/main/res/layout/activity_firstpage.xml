@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/image"
+
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@android:style/Widget.Material.TextView"
+            android:layout_width="236dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/amethysta"
+            android:gravity="center"
+            android:text="WELCOME"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@android:style/Widget.Material.TextView"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/actor"
+            android:gravity="center"
+            android:text="WHICH ONE WOULD YOU LIKE?"
+            android:textColor="#472020"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/vg"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/nonvegbtn"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                android:text="NON-VEG"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:iconTint="#651F1F"
+                app:rippleColor="@color/purple_700" />
+
+            <Button
+                android:id="@+id/vegbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                android:text="VEG"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:rippleColor="@color/purple_500" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

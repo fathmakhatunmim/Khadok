@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="0dp"
+
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/login">
+
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="152dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/editveiwbackground"
+        android:backgroundTint="#E38E8E"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:isScrollContainer="false"
+        android:padding="10dp"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#000000"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="152dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/editveiwbackground"
+        android:backgroundTint="#E38E8E"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="********"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/editveiwbackground"
+        android:backgroundTint="#E38E8E"
+        android:text="Login" />
+
+
+</RelativeLayout>
+
+
